@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+D:\Computacione Informatica 4\Examenes\LenguajePII\EvaluacionT1_Jean Ronal Solis Leon_T4LA\Examen1\.metadata\.plugins\org.eclipse.jdt.core
+3670411901.index
+153668532.index
+665002374.index
+1865797976.index
+2981204401.index
+2041706478.index
+3167633198.index

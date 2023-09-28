@@ -1,0 +1,34 @@
+package modelo;
+import java.util.Date;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+
+
+@Intity
+@Table(name = "medicamento")
+public class Medicamentos {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int idMedicamento;
+	private String nombre;
+	private String descripcion;
+	private String categoria;
+	private int stock;
+	private String proveedor;
+
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	private Date fechavencimiento;
+	private String precio;
+
+	public Medicamento(int idMedicamento, String nombre, String descripcion, String categoria, Date fecharegistro, String costo) {
+		super();
+		this.id_libro = id_libro;
+		this.titulo = titulo;
+		this.autor = autor;
+		this.editorial = editorial;
+		this.fecharegistro = fecharegistro;
+		this.costo = costo;
+	}
+
+}
